@@ -71,7 +71,6 @@ ipython_config.py
 .python-version
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -98,14 +97,12 @@ temp/
 .skillspector/
 
 # API Keys (never commit!)
-.env.local
 .env.*.local
 secrets.json
 credentials.json
 
 # LangGraph API server
 .langgraph_api/
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
 .gitignore
+config.bat
+node_modules
